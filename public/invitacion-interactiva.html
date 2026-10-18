@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Primera Comunión - Adrián Guillermo & Gelmun Augusto</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Great+Vibes&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background-color: #FAF7F2;
+      color: #3D372E;
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 16px;
+    }
+    .card {
+      background: linear-gradient(180deg, #FFFFFF 0%, #FAF8F2 60%, #F5EEDF 100%);
+      border: 2px solid #D4AF37;
+      border-radius: 20px;
+      max-width: 620px;
+      width: 100%;
+      padding: 36px 24px;
+      text-align: center;
+      box-shadow: 0 20px 45px -10px rgba(181, 138, 54, 0.35);
+      position: relative;
+      overflow: hidden;
+      margin: 20px 0;
+    }
+    .inner-border {
+      position: absolute;
+      inset: 8px;
+      border: 1px solid rgba(212, 175, 55, 0.4);
+      border-radius: 14px;
+      pointer-events: none;
+    }
+    h1 {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: 26px;
+      font-style: italic;
+      color: #7A5B1A;
+      margin-top: 12px;
+    }
+    .names {
+      margin: 18px 0;
+      padding: 14px 0;
+      border-top: 1px solid rgba(212, 175, 55, 0.35);
+      border-bottom: 1px solid rgba(212, 175, 55, 0.35);
+      background: rgba(251, 247, 236, 0.6);
+    }
+    .child-name {
+      font-family: 'Cinzel', serif;
+      font-size: 28px;
+      font-weight: 700;
+      color: #8C6518;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+    .script-and {
+      font-family: 'Great Vibes', cursive;
+      font-size: 28px;
+      color: #A37E28;
+      display: block;
+      line-height: 1;
+      margin: 4px 0;
+    }
+    .surnames {
+      font-family: 'Cinzel', serif;
+      font-size: 13px;
+      font-weight: 700;
+      color: #735316;
+      letter-spacing: 3px;
+      margin-top: 4px;
+    }
+    .reflection {
+      font-size: 18px;
+      color: #4A3E2D;
+      line-height: 1.5;
+      margin: 16px 0;
+    }
+    .details-box {
+      background: #FFFFFF;
+      border: 1px solid rgba(212, 175, 55, 0.5);
+      border-radius: 14px;
+      padding: 18px;
+      margin: 20px 0;
+      text-align: left;
+      box-shadow: 0 4px 12px rgba(181, 138, 54, 0.08);
+    }
+    .details-box .item {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+    .details-box .item:last-child { margin-bottom: 0; }
+    .item-label {
+      font-family: 'Cinzel', serif;
+      font-size: 10px;
+      font-weight: 700;
+      color: #8F6A1E;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      display: block;
+    }
+    .item-value {
+      font-size: 17px;
+      font-weight: 600;
+      color: #2F271B;
+      display: block;
+    }
+    .reception-box {
+      background: #FAF6EC;
+      border: 1px solid rgba(212, 175, 55, 0.35);
+      border-radius: 12px;
+      padding: 14px;
+      margin: 18px 0;
+      font-size: 17px;
+      color: #4E412F;
+    }
+    .closing {
+      font-size: 18px;
+      font-weight: 600;
+      font-style: italic;
+      color: #3F3323;
+      margin: 16px 0;
+    }
+    .countdown-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+      max-width: 320px;
+      margin: 16px auto;
+    }
+    .countdown-item {
+      background: #FFFFFF;
+      border: 1px solid rgba(212, 175, 55, 0.4);
+      border-radius: 10px;
+      padding: 8px;
+    }
+    .countdown-val {
+      font-family: 'Cinzel', serif;
+      font-size: 20px;
+      font-weight: 700;
+      color: #8A661F;
+      display: block;
+    }
+    .countdown-lbl {
+      font-size: 10px;
+      color: #7A6E59;
+      text-transform: uppercase;
+    }
+    .btn-whatsapp {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      width: 100%;
+      background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+      color: #FFFFFF;
+      text-decoration: none;
+      font-family: 'Cinzel', serif;
+      font-size: 13px;
+      font-weight: 700;
+      padding: 14px 20px;
+      border-radius: 14px;
+      box-shadow: 0 6px 18px rgba(37, 211, 102, 0.35);
+      margin-top: 10px;
+      transition: transform 0.2s;
+    }
+    .btn-whatsapp:active { transform: scale(0.98); }
+    .church-map-link {
+      color: #8C6518;
+      font-size: 13px;
+      font-weight: 600;
+      text-decoration: underline;
+      display: inline-block;
+      margin-top: 3px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="inner-border"></div>
+
+    <!-- Cáliz Litúrgico SVG -->
+    <svg width="68" height="68" viewBox="0 0 100 100" fill="none" style="margin: 0 auto; display: block;">
+      <circle cx="50" cy="28" r="14" fill="#FFFDF5" stroke="#D4AF37" stroke-width="1.2"/>
+      <path d="M50 20 V34 M45 24 H55" stroke="#8C6518" stroke-width="1.2" stroke-linecap="round"/>
+      <text x="50" y="35" text-anchor="middle" font-size="5.5" font-family="'Cinzel', serif" font-weight="bold" fill="#8C6518">JHS</text>
+      <path d="M32 50 C32 66, 42 74, 50 74 C58 74, 68 66, 68 50 Z" fill="#D4AF37" stroke="#8F6715" stroke-width="1.2"/>
+      <path d="M47 74 H53 V86 H47 Z" fill="#D4AF37" stroke="#8F6715" stroke-width="1"/>
+      <ellipse cx="50" cy="80" rx="6" ry="3.5" fill="#FFF4C4" stroke="#8F6715" stroke-width="1"/>
+      <path d="M47 86 C44 87, 30 92, 28 95 H72 C70 92, 56 87, 53 86 Z" fill="#D4AF37" stroke="#8F6715" stroke-width="1.2"/>
+    </svg>
+
+    <div style="font-family: 'Cinzel', serif; font-size: 11px; letter-spacing: 2px; color: #8A661F; text-transform: uppercase; margin-top: 8px;">
+      Sacramento de la Eucaristía
+    </div>
+
+    <h1>¡Un día muy especial para nuestra familia!</h1>
+
+    <p style="font-size: 17px; color: #554937; font-style: italic; margin-top: 10px;">
+      Con el corazón lleno de alegría y gratitud con Dios, queremos invitarte a compartir con nosotros la Primera Comunión de:
+    </p>
+
+    <div class="names">
+      <div class="child-name">Adrián Guillermo</div>
+      <span class="script-and">y</span>
+      <div class="child-name">Gelmun Augusto</div>
+      <div class="surnames">LÓPEZ BERNAL</div>
+    </div>
+
+    <p class="reflection">
+      Será un momento único, en el que recibirán por primera vez a Jesús en su corazón, y nos haría muy felices que los acompañes en este paso tan importante de su vida.
+    </p>
+
+    <div class="details-box">
+      <div class="item">
+        <span style="font-size: 22px;">📅</span>
+        <div>
+          <span class="item-label">Fecha</span>
+          <span class="item-value">Martes 8 de diciembre de 2026</span>
+          <span style="font-size: 12px; color: #7F7159; font-style: italic;">Solemnidad de la Inmaculada Concepción</span>
+        </div>
+      </div>
+      <div class="item">
+        <span style="font-size: 22px;">🕛</span>
+        <div>
+          <span class="item-label">Hora</span>
+          <span class="item-value">12:00 m. (Mediodía)</span>
+        </div>
+      </div>
+      <div class="item">
+        <span style="font-size: 22px;">⛪</span>
+        <div>
+          <span class="item-label">Templo Parroquial</span>
+          <span class="item-value">Parroquia de San Pedro Apóstol</span>
+          <span style="font-size: 14px; color: #665742;">Chiquiza, Boyacá, Colombia</span>
+          <br>
+          <a class="church-map-link" href="https://www.google.com/maps/search/?api=1&query=Parroquia+San+Pedro+Apostol+Chiquiza+Boyaca+Colombia" target="_blank">
+            📍 Abrir ubicación en Google Maps
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="reception-box">
+      <strong style="font-family: 'Cinzel', serif; font-size: 11px; text-transform: uppercase; color: #8A661F; display: block; margin-bottom: 4px;">Recepción</strong>
+      Al terminar la misa, nos encantaría que nos acompañes a una comida en casa para seguir celebrando juntos en un ambiente de familia.
+    </div>
+
+    <p class="closing">
+      Tu compañía y tus oraciones harán este día aún más bonito. ¡Te esperamos con mucho cariño!
+    </p>
+
+    <!-- Cuenta regresiva -->
+    <div style="font-family: 'Cinzel', serif; font-size: 10px; letter-spacing: 2px; color: #8F6A1E; text-transform: uppercase; margin-top: 16px;">
+      Cuenta Regresiva para el Gran Día
+    </div>
+    <div class="countdown-grid">
+      <div class="countdown-item"><span id="days" class="countdown-val">--</span><span class="countdown-lbl">Días</span></div>
+      <div class="countdown-item"><span id="hours" class="countdown-val">--</span><span class="countdown-lbl">Horas</span></div>
+      <div class="countdown-item"><span id="minutes" class="countdown-val">--</span><span class="countdown-lbl">Min</span></div>
+      <div class="countdown-item"><span id="seconds" class="countdown-val">--</span><span class="countdown-lbl">Seg</span></div>
+    </div>
+
+    <!-- Botón directo WhatsApp -->
+    <a
+      class="btn-whatsapp"
+      href="https://wa.me/573214386084?text=¡Hola!%20Confirmo%20con%20mucha%20alegría%20mi%20asistencia%20a%20la%20Primera%20Comunión%20de%20Adrián%20Guillermo%20y%20Gelmun%20Augusto%20López%20Bernal%20el%20martes%208%20de%20diciembre%20de%202026."
+      target="_blank"
+    >
+      Confirmar Asistencia por WhatsApp (321 438 6084)
+    </a>
+  </div>
+
+  <script>
+    const targetDate = new Date('2026-12-08T12:00:00-05:00').getTime();
+    function updateCountdown() {
+      const now = new Date().getTime();
+      const diff = targetDate - now;
+      if (diff > 0) {
+        document.getElementById('days').innerText = Math.floor(diff / (1000 * 60 * 60 * 24));
+        document.getElementById('hours').innerText = Math.floor((diff / (1000 * 60 * 60)) % 24);
+        document.getElementById('minutes').innerText = Math.floor((diff / (1000 * 60)) % 60);
+        document.getElementById('seconds').innerText = Math.floor((diff / 1000) % 60);
+      }
+    }
+    updateCountdown();
+    setInterval(updateCountdown, 1000);
+  </script>
+</body>
+</html>

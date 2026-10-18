@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Cormorant Garamond', Georgia, serif;
+    --font-cinzel: 'Cinzel', serif;
+    --font-script: 'Great Vibes', cursive;
+    --font-script-subtle: 'Alex Brush', cursive;
+  }
+}
+
+.font-garamond {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', Georgia, serif;
+}
+
+.font-script {
+  font-family: 'Great Vibes', cursive;
+}
+
+.font-script-subtle {
+  font-family: 'Alex Brush', cursive;
+}
+
+/* Gold foil foil-shine effect */
+.text-gold-foil {
+  background: linear-gradient(135deg, #A27B2B 0%, #E8D08D 25%, #C29B38 50%, #F5E7B2 75%, #A67C29 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gold-light {
+  background: linear-gradient(135deg, #B58A36 0%, #F7E9BC 30%, #D4AF37 55%, #FFF4D0 80%, #997426 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.border-gold-foil {
+  border-image: linear-gradient(to bottom right, #D4AF37, #F3E5AB, #AA771C, #FFDF73, #996515) 1;
+}
+
+.bg-gold-metallic {
+  background: linear-gradient(135deg, #C59A3F 0%, #F7ECC8 30%, #D8AE4D 60%, #B8892C 100%);
+}
+
+.bg-gold-soft {
+  background: linear-gradient(135deg, #FBF8F1 0%, #F6EEDC 50%, #FAF6EE 100%);
+}
+
+.bg-card-parchment {
+  background: linear-gradient(180deg, #FFFFFF 0%, #FCFBF7 40%, #F9F6EE 100%);
+}
+
+/* Shimmer animation */
+@keyframes shimmerPass {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.animate-shimmer {
+  background-size: 200% 100%;
+  animation: shimmerPass 4s infinite linear;
+}
+
+@keyframes divinePulse {
+  0%, 100% {
+    opacity: 0.6;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.95;
+    transform: scale(1.05);
+  }
+}
+
+.animate-divine {
+  animation: divinePulse 3s ease-in-out infinite;
+}
+
+@keyframes gentleFloat {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+.animate-float {
+  animation: gentleFloat 4s ease-in-out infinite;
+}
+

@@ -1,0 +1,73 @@
+- generic [ref=f1e3]:
+  - banner [ref=f1e4]:
+    - generic [ref=f1e5]:
+      - generic [ref=f1e6] [cursor=pointer]:
+        - img [ref=f1e7]:
+          - generic [ref=f1e19]: JHS
+        - generic [ref=f1e25]:
+          - generic [ref=f1e26]: Primera Comunión
+          - generic [ref=f1e27]: Adrián Guillermo & Gelmun Augusto
+      - navigation [ref=f1e28]:
+        - button "Tarjeta" [ref=f1e29]
+        - button "Exportar GIF" [ref=f1e30]
+        - button "Animar con Veo" [active] [ref=f1e35]
+        - button "Silenciar" [ref=f1e40]
+  - main [ref=f1e45]:
+    - generic [ref=f1e46]:
+      - button "← Volver a la tarjeta interactiva" [ref=f1e48]
+      - generic [ref=f1e49]:
+        - generic [ref=f1e50]:
+          - generic [ref=f1e56]:
+            - heading "Exportador de Invitación GIF Animada" [level=2] [ref=f1e57]
+            - paragraph [ref=f1e58]: Genera tu archivo .GIF animado con brillo dorado y destellos sacros para compartir por WhatsApp
+          - button "Cerrar modal" [ref=f1e59]
+        - generic [ref=f1e63]:
+          - generic [ref=f1e64]:
+            - generic [ref=f1e65]: Previsualización en tiempo real (480 x 680 px)
+            - paragraph [ref=f1e69]: Incluye texto litúrgico completo, cáliz sacro, destello dorado en los nombres y partículas flotantes.
+          - generic [ref=f1e70]:
+            - generic [ref=f1e71]:
+              - heading "Opciones de Exportación" [level=3] [ref=f1e72]
+              - button "Crear Archivo GIF Animado" [ref=f1e124]
+              - generic [ref=f1e78]:
+                - button "Descargar PNG" [ref=f1e79]
+                - button "Grabar Video MP4" [ref=f1e86]
+            - generic [ref=f1e128]:
+              - generic [ref=f1e129]: ¡GIF Listo para Compartir! (0.75 MB)
+              - img "Invitación Primera Comunión GIF Animado" [ref=f1e135]
+              - generic [ref=f1e136]:
+                - link "Descargar Archivo .GIF" [ref=f1e137] [cursor=pointer]:
+                  - /url: blob:http://localhost:3000/cb7fa321-2891-4d18-ae29-9790847b37c7
+                - button "WhatsApp" [ref=f1e141]
+  - generic [ref=f1e149]:
+    - button "Cerrar modal de video" [ref=f1e150]
+    - generic [ref=f1e159]:
+      - generic [ref=f1e160]: Generación de Video IA (Veo 3.1)
+      - heading "Animar Foto en Video Sagrado" [level=2] [ref=f1e161]
+    - generic [ref=f1e162]:
+      - generic [ref=f1e163]:
+        - generic [ref=f1e164]: 1. Selecciona o sube una foto (Adrián & Gelmun, familia o templo)
+        - generic [ref=f1e165] [cursor=pointer]:
+          - generic [ref=f1e170]: Toca para subir una fotografía
+          - generic [ref=f1e171]: PNG, JPG o WEBP (los rostros y detalles se animarán con luz celestial)
+      - generic [ref=f1e172]:
+        - generic [ref=f1e173]: 2. Formato del video (Aspect Ratio)
+        - generic [ref=f1e174]:
+          - button "9:16 Vertical Estados WhatsApp / Reels" [ref=f1e175]:
+            - generic [ref=f1e176]: 9:16 Vertical
+            - generic [ref=f1e177]: Estados WhatsApp / Reels
+          - button "16:9 Horizontal Pantalla completa / TV" [ref=f1e178]:
+            - generic [ref=f1e179]: 16:9 Horizontal
+            - generic [ref=f1e180]: Pantalla completa / TV
+      - generic [ref=f1e181]:
+        - generic [ref=f1e182]: 3. Efecto o atmósfera sagrada deseada
+        - generic [ref=f1e183]:
+          - button "✨ Luz divina celestial y destellos dorados con pétalos..." [ref=f1e184]
+          - button "✨ Resplandor dorado radiante en templo colonial con su..." [ref=f1e185]
+          - button "✨ Brisa angelical suave, destellos dorados celestiales..." [ref=f1e186]
+        - textbox "Describe la atmósfera celestial, destellos o partículas..." [ref=f1e187]: Luz divina celestial y destellos dorados con pétalos de rosas blancas flotando en una suave brisa reverente, ambiente emotivo y sagrado de Primera Comunión.
+      - button "Generar Video con Veo AI" [ref=f1e188]
+  - contentinfo [ref=f1e91]:
+    - generic [ref=f1e92]: Adrián Guillermo & Gelmun Augusto López Bernal
+    - paragraph [ref=f1e110]: Martes 8 de diciembre de 2026 • Parroquia de San Pedro Apóstol • Chiquiza, Boyacá
+    - paragraph [ref=f1e111]: Diseño sacro con paleta blanco, oro y tonos pastel • Formato GIF animado y video Veo

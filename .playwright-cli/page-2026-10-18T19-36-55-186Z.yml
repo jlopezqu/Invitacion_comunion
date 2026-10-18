@@ -1,0 +1,102 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6] [cursor=pointer]:
+        - img [ref=e7]:
+          - generic [ref=e19]: JHS
+        - generic [ref=e25]:
+          - generic [ref=e26]: Primera Comunión
+          - generic [ref=e27]: Adrián & Gelmun
+      - navigation [ref=e28]:
+        - button "Tarjeta" [ref=e29]
+        - button "GIF" [ref=e30]
+        - button "Veo" [ref=e35]
+        - button "Silenciar" [ref=e40]
+  - main [ref=e45]:
+    - generic [ref=e47]:
+      - button "Cerrar sobre" [ref=e49]
+      - generic [ref=e54]:
+        - article [ref=e55]:
+          - generic [ref=e56]:
+            - img [ref=e59] [cursor=pointer]:
+              - generic [ref=e71]: JHS
+            - generic [ref=e106]: Sacramento de la Eucaristía
+            - heading "¡Un día muy especial para nuestra familia!" [level=1] [ref=e107]
+          - generic "Haz clic para personalizar el nombre del invitado" [ref=e109] [cursor=pointer]: Personalizar nombre de invitado
+          - generic [ref=e114]:
+            - paragraph [ref=e115]: "Con el corazón lleno de alegría y gratitud con Dios, queremos invitarte a compartir con nosotros la Primera Comunión de:"
+            - generic [ref=e116]:
+              - heading "Adrián Guillermo" [level=2] [ref=e117]
+              - generic [ref=e118]: "y"
+              - heading "Gelmun Augusto" [level=2] [ref=e122]
+              - paragraph [ref=e123]: LÓPEZ BERNAL
+            - paragraph [ref=e124]: Será un momento único, en el que recibirán por primera vez a Jesús en su corazón, y nos haría muy felices que los acompañes en este paso tan importante de su vida.
+          - generic [ref=e125]:
+            - heading "Celebración Eucarística" [level=3] [ref=e135]
+            - generic [ref=e144]:
+              - generic [ref=e149]:
+                - generic [ref=e150]: Fecha
+                - text: Martes 8 de diciembre de 2026
+                - generic [ref=e151]: Solemnidad de la Inmaculada Concepción
+              - generic [ref=e157]:
+                - generic [ref=e158]: Hora
+                - text: 12:00 m. (Mediodía)
+              - generic [ref=e164]:
+                - generic [ref=e165]: Templo Parroquial
+                - generic [ref=e166]: Parroquia de San Pedro Apóstol
+                - generic [ref=e167]: Chiquiza, Boyacá, Colombia
+                - link "Ver ubicación en Google Maps" [ref=e168] [cursor=pointer]:
+                  - /url: https://www.google.com/maps/search/?api=1&query=Parroquia%20San%20Pedro%20Apostol%20Chiquiza%20Boyaca%20Colombia
+          - generic [ref=e171]:
+            - generic [ref=e172]:
+              - generic [ref=e173]: Recepción
+              - paragraph [ref=e177]: Al terminar la misa, nos encantaría que nos acompañes a una comida en casa para seguir celebrando juntos en un ambiente de familia.
+            - paragraph [ref=e178]: Tu compañía y tus oraciones harán este día aún más bonito. ¡Te esperamos con mucho cariño!
+          - generic [ref=e191]:
+            - generic [ref=e192]: Cuenta Regresiva para el Gran Día
+            - generic [ref=e193]:
+              - generic [ref=e194]:
+                - generic [ref=e195]: "50"
+                - text: Días
+              - generic [ref=e196]:
+                - generic [ref=e197]: "21"
+                - text: Horas
+              - generic [ref=e198]:
+                - generic [ref=e199]: "23"
+                - text: Min
+              - generic [ref=e200]:
+                - generic [ref=e201]: "5"
+                - text: Seg
+          - generic [ref=e202]:
+            - generic [ref=e203]:
+              - link "Confirmar Asistencia por WhatsApp" [ref=e204] [cursor=pointer]:
+                - /url: https://wa.me/573214386084?text=%C2%A1Hola!%20Confirmo%20con%20mucha%20alegr%C3%ADa%20mi%20asistencia%20a%20la%20Primera%20Comuni%C3%B3n%20de%20Adri%C3%A1n%20Guillermo%20y%20Gelmun%20Augusto%20L%C3%B3pez%20Bernal%20(2%20personas).%20%C2%A1Nos%20vemos%20el%208%20de%20diciembre!
+              - generic [ref=e208]:
+                - link "Google Calendar" [ref=e209] [cursor=pointer]:
+                  - /url: https://calendar.google.com/calendar/render?action=TEMPLATE&text=Primera%20Comuni%C3%B3n%20de%20Adri%C3%A1n%20Guillermo%20y%20Gelmun%20Augusto%20L%C3%B3pez%20Bernal&dates=20261208T170000Z/20261208T220000Z&details=%C2%A1Un%20d%C3%ADa%20muy%20especial%20para%20nuestra%20familia!%0APrimera%20Comuni%C3%B3n%20de%20Adri%C3%A1n%20Guillermo%20y%20Gelmun%20Augusto%20L%C3%B3pez%20Bernal.%0A%0ALugar%3A%20Parroquia%20de%20San%20Pedro%20Ap%C3%B3stol%2C%20Chiquiza%2C%20Boyac%C3%A1.%0AHora%3A%2012%3A00%20m..%0AAl%20terminar%20la%20misa%2C%20comida%20en%20casa%20para%20seguir%20celebrando%20juntos%20en%20un%20ambiente%20de%20familia.&location=Parroquia%20de%20San%20Pedro%20Ap%C3%B3stol%2C%20Chiquiza%2C%20Boyac%C3%A1
+                - button ".ICS" [ref=e212]
+            - generic [ref=e213]:
+              - generic [ref=e214]: "WhatsApp para confirmación:"
+              - link "321 438 6084" [ref=e215] [cursor=pointer]:
+                - /url: https://wa.me/573214386084
+              - generic [ref=e216]: (+57 321 438 6084)
+          - generic [ref=e217]:
+            - button "Compartir / Copiar enlace" [active] [ref=e218]
+            - button "Exportar GIF Animado" [ref=e226]
+            - button "Animar con Veo AI 🎬" [ref=e231]
+        - generic [ref=e255]:
+          - button "Cerrar modal" [ref=e256]: ✕
+          - generic [ref=e264]:
+            - heading "Enlace Público para Invitados" [level=3] [ref=e265]
+            - paragraph [ref=e266]: Comparte este enlace con tus familiares y amigos. Se abre en cualquier celular o computador sin requerir cuenta de Google ni dar error 403.
+          - generic [ref=e267]:
+            - textbox [ref=e268]: https://ais-pre-unv4trezslwixivcw35pil-645845983563.us-west2.run.app
+            - button "Copiar" [ref=e269]
+          - generic [ref=e270]:
+            - link "Enviar por WhatsApp a un contacto" [ref=e271] [cursor=pointer]:
+              - /url: https://wa.me/?text=%C2%A1Hola!%20Te%20comparto%20con%20mucho%20cari%C3%B1o%20la%20invitaci%C3%B3n%20para%20la%20Primera%20Comuni%C3%B3n%20de%20Adri%C3%A1n%20Guillermo%20y%20Gelmun%20Augusto%20L%C3%B3pez%20Bernal%3A%20https%3A%2F%2Fais-pre-unv4trezslwixivcw35pil-645845983563.us-west2.run.app
+            - button "Cerrar" [ref=e276]
+  - contentinfo [ref=e233]:
+    - generic [ref=e234]: Adrián Guillermo & Gelmun Augusto López Bernal
+    - paragraph [ref=e252]: Martes 8 de diciembre de 2026 • Parroquia de San Pedro Apóstol • Chiquiza, Boyacá
+    - paragraph [ref=e253]: Diseño sacro con paleta blanco, oro y tonos pastel • Formato GIF animado y video Veo

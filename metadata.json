@@ -1,0 +1,8 @@
+{
+  "name": "Invitación Primera Comunión - Adrián & Gelmun",
+  "description": "Elegante tarjeta e invitación interactiva y animada para la Primera Comunión de Adrián Guillermo y Gelmun Augusto López Bernal con exportador GIF y generador de video Veo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

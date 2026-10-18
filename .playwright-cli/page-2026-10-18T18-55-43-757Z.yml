@@ -1,0 +1,29 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6] [cursor=pointer]:
+        - img [ref=e7]:
+          - generic [ref=e19]: JHS
+        - generic [ref=e25]:
+          - generic [ref=e26]: Primera Comunión
+          - generic [ref=e27]: Adrián Guillermo & Gelmun Augusto
+      - navigation [ref=e28]:
+        - button "Tarjeta" [ref=e29]
+        - button "Exportar GIF" [ref=e30]
+        - button "Animar con Veo" [ref=e35]
+        - button "Silenciar" [ref=e40]
+  - main [ref=e45]:
+    - generic [ref=e47]:
+      - generic [ref=e48] [cursor=pointer]:
+        - generic [ref=e52]:
+          - generic [ref=e53]: JHS
+          - generic [ref=e54]: "2026"
+        - generic:
+          - generic: Primera Comunión
+          - paragraph: Adrián Guillermo & Gelmun Augusto
+      - button "Tocar para abrir la invitación" [ref=e55]
+      - paragraph [ref=e63]: Haz clic en el sello dorado o en el botón para descubrir la tarjeta
+  - contentinfo [ref=e64]:
+    - generic [ref=e65]: Adrián Guillermo & Gelmun Augusto López Bernal
+    - paragraph [ref=e83]: Martes 8 de diciembre de 2026 • Parroquia de San Pedro Apóstol • Chiquiza, Boyacá
+    - paragraph [ref=e84]: Diseño sacro con paleta blanco, oro y tonos pastel • Formato GIF animado y video Veo
